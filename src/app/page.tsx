@@ -14,6 +14,7 @@ import {
   AccordionItem,
   Input
 } from "@heroui/react";
+// @ts-ignore
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
 import Image from "next/image";
