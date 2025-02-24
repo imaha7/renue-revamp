@@ -14,6 +14,7 @@ import {
   AccordionItem,
   Input
 } from "@heroui/react";
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
