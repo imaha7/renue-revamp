@@ -211,7 +211,7 @@ export default function Home() {
       </div>
       <div className="bg-blue-800 h-full text-center text-white py-12">
         <div className="grid sm:grid-cols-1 md:grid-cols-2 h-screen container mx-auto gap-4">
-          {window.innerWidth <= 768 ? <Image
+          {width <= 400 ? <Image
             className="sm:block mx-auto my-auto rounded-3xl"
             src="/img-store.png"
             alt="renue"
@@ -236,7 +236,7 @@ export default function Home() {
               </Button>
             </div>
           </div>
-          {window.innerWidth > 768 ? <Image
+          {width >= 556 ? <Image
             className="sm:block mx-auto my-auto rounded-3xl"
             src="/img-store.png"
             alt="renue"
